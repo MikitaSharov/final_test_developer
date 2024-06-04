@@ -1,0 +1,49 @@
+    1  cat >> pets
+    2  cat >> packs
+    3  ll
+    4  packs >> pets
+    5  cat packs >> pets
+    6  more pets
+    7  mv pets friends_of_man
+    8  ll
+    9  mkdir new_dir
+   10  ll
+   11  mv friends_of_man new_dir/
+   12  cd new_dir/
+   13  ll
+   14  more friends_of_man
+   15  cd ..
+   16  wget --version
+   17  gnupg --version
+   18  apt update
+   19  apt install gnupg -y
+   20  wget https://dev.mysql.com/get/mysql-apt-config_0.8.30-1_all.deb
+   21  ll
+   22  apt install ./mysql-apt-config_0.8.30-1_all.deb
+   23  systemctl status mysql
+   24  apt update
+   25  apt install mysql-server
+   26  systemctl status mysql
+   27  mysql -u root -p
+   28  wget https://dev.mysql.com/get/mysql-workbench-community_8.0.36-1ubuntu22.04_amd64.deb
+   29  ll
+   30  dpkg -i mysql-workbench-community_8.0.36-1ubuntu22.04_amd64.deb
+   31  apt update
+   32  apt install -f
+   33  dpkg -i mysql-workbench-community_8.0.36-1ubuntu22.04_amd64.deb
+   34  apt update
+   35  apt install mysql-workbench-community
+   36  systemctl status mysql-workbench-community
+   37  systemctl start mysql-workbench-community
+   38  systemctl start mysql-workbench
+   39  apt update
+   40  systemctl status mysql-workbench-community
+   41  systemctl start mysql-workbench
+   42  dpkg -P mysql-workbench-community
+   43  dpkg -l | grep mysql
+   44  ll
+   45  dpkg -r mysql-workbench-community
+   46  ll
+   47  rm mysql-workbench-community_8.0.36-1ubuntu22.04_amd64.deb
+   48  ll
+   49  history
