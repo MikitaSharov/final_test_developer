@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Шарик",
+        "date_of_birthday": "1987-03-03",
+        "class": "Dog",
+        "commands_list": {
+            "1": {
+                "name": "Голос",
+                "action": "гав-гав"
+            },
+            "2": {
+                "name": "Дружить",
+                "action": "виляет хвостом"
+            }
+        }
+    },
+    {
+        "id": 2,
+        "name": "Тузик",
+        "date_of_birthday": "2020-11-10",
+        "class": "Dog",
+        "commands_list": {}
+    },
+    {
+        "id": 3,
+        "name": "Мурка",
+        "date_of_birthday": "2022-10-19",
+        "class": "Cat",
+        "commands_list": {
+            "1": {
+                "name": "Голос",
+                "action": "мяу"
+            }
+        }
+    }
+]
