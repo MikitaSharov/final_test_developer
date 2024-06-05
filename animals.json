@@ -2,7 +2,8 @@
     {
         "id": 1,
         "name": "Шарик",
-        "date_of_birthday": "1987-03-03",
+        "date_of_birthday": "2120-12-11",
+        "type": "Pet",
         "class": "Dog",
         "commands_list": {
             "1": {
@@ -10,7 +11,7 @@
                 "action": "гав-гав"
             },
             "2": {
-                "name": "Дружить",
+                "name": "дружить",
                 "action": "виляет хвостом"
             }
         }
@@ -18,19 +19,42 @@
     {
         "id": 2,
         "name": "Тузик",
-        "date_of_birthday": "2020-11-10",
+        "date_of_birthday": "2121-11-11",
+        "type": "Pet",
+        "class": "Dog",
+        "commands_list": {
+            "1": {
+                "name": "Лежать",
+                "action": "лежит"
+            }
+        }
+    },
+    {
+        "id": 3,
+        "name": "Рекс",
+        "date_of_birthday": "2020-12-12",
+        "type": "Pet",
         "class": "Dog",
         "commands_list": {}
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Мурка",
-        "date_of_birthday": "2022-10-19",
+        "date_of_birthday": "1000-12-12",
+        "type": "Pet",
         "class": "Cat",
+        "commands_list": {}
+    },
+    {
+        "id": 5,
+        "name": "Иа",
+        "date_of_birthday": "2020-01-01",
+        "type": "Pack",
+        "class": "Donkey",
         "commands_list": {
             "1": {
-                "name": "Голос",
-                "action": "мяу"
+                "name": "Грузи",
+                "action": "присаживается"
             }
         }
     }

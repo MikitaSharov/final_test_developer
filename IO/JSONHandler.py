@@ -17,6 +17,7 @@ class JSONHandler:
                 'id': animal.get_id(),
                 'name': animal.get_name(),
                 'date_of_birthday': animal.get_date_of_birthday().isoformat(),
+                'type': animal.get_animal_type(),
                 'class': animal.get_class(),
                 'commands_list': animal.get_commands_list()
             }

@@ -24,8 +24,8 @@ class Controller(ControllerInterface):
                 return animal
         return None
 
-    def show_all_commands(self, animal):
-        return self.__commands.show_commands(animal)
+    # def show_all_commands(self, animal):
+    #     return self.__commands.show_commands(animal)
 
     def teach_animal_command(self, animal, command_name, action):
         self.__commands.teach_command(animal, command_name, action)

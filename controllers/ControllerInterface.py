@@ -14,9 +14,9 @@ class ControllerInterface(ABC):
     def get_animal_by_name(self, name):
         pass
 
-    @abstractmethod
-    def show_all_commands(self, animal):
-        pass
+    # @abstractmethod
+    # def show_all_commands(self, animal):
+    #     pass
 
     @abstractmethod
     def teach_animal_command(self, animal, command_name, action):
